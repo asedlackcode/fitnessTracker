@@ -51,4 +51,4 @@ const CardioSchema = new Schema({
 const Resistance = mongoose.model("Resistance", ResistanceSchema);
 const Cardio = mongoose.model("Cardio", CardioSchema);
 
-module.exports = (Resistance,Cardio);
+module.exports = Resistance, Cardio;
